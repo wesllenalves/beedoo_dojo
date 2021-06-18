@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@types/jest": "^26.0.21",
+    "readline-sync": "^1.4.10",
     "ts-node": "^9.1.1"
   },
   "scripts": {
-    "test": "jest --passWithNoTests --watch"
+    "test": "jest --passWithNoTests --watch",
+    "start": "node src/usecases/index.ts"
   }
 }
